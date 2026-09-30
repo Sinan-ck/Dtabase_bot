@@ -25,8 +25,8 @@ Question -> Llama 3.2 -> SQL -> MySQL -> Result -> Llama 3.2 -> Answer
 **1. Clone the repository and install dependencies**
 
 ```bash
-git clone https://github.com/<your-username>/text-to-sql-ollama.git
-cd text-to-sql-ollama
+git clone https://github.com/Sinan-ck/Dtabase_bot.git
+cd Dtabase_bot
 pip install -r requirements.txt
 ```
 
