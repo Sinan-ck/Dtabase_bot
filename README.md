@@ -103,3 +103,18 @@ With the sample data, the expected ranking is Levi (4136), Van Huesen (1050), th
 ## Built with
 
 [LangChain](https://www.langchain.com/) - [Ollama](https://ollama.com/) - [SQLAlchemy](https://www.sqlalchemy.org/) - [PyMySQL](https://pymysql.readthedocs.io/)
+
+## Streamlit app
+
+A chat interface with few-shot example retrieval (FAISS) is included.
+
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+Open http://localhost:8501 and ask a question in plain English. The app shows the answer, a result table, the generated SQL, and the similar examples it used.
+
+## Screenshot
+
+![Database Bot screenshot](screenshots/demo.png)

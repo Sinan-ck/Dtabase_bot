@@ -1,5 +1,10 @@
+streamlit
+pandas
 langchain-ollama
 langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu
 pymysql
 cryptography
 python-dotenv
